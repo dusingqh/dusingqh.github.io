@@ -1,0 +1,74 @@
+@charset "utf-8";
+.footer {
+  width: 100%;
+  height: 440px;
+  padding-top: 30px;
+  background-color: #dedede;
+}
+.footer .layout {
+  zoom: 1;
+}
+.footer .layout::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.footer .layout .contact {
+  width: 50%;
+  float: left;
+}
+.footer .layout .contact h3 {
+  padding: 12px 0;
+  color: #666;
+}
+.footer .layout .contact .listBox {
+  line-height: 40px;
+  color: #888;
+}
+.footer .layout .trends {
+  width: 50%;
+  float: right;
+}
+.footer .layout .trends h3 {
+  padding: 12px 0;
+  color: #666;
+}
+.footer .layout .trends .trendsWrap {
+  position: relative;
+  height: 316px;
+  overflow: hidden;
+}
+.footer .layout .trends .trendsWrap .trendsContent {
+  position: absolute;
+}
+.footer .layout .trends .trendsWrap .trendsContent li {
+  height: 72px;
+  padding: 4px 0;
+}
+.footer .layout .trends .trendsWrap .trendsContent li img {
+  display: inline-block;
+  width: 100px;
+  height: 72px;
+  background: #ccc;
+  float: left;
+}
+.footer .layout .trends .trendsWrap .trendsContent li .con {
+  float: left;
+  width: 300px;
+  margin-left: 16px;
+}
+.footer .layout .trends .trendsWrap .trendsContent li .con a {
+  display: block;
+  height: 50px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.footer .layout .trends .trendsWrap .trendsContent li .con a:hover {
+  color: #2D9FF1;
+}
+.footer .layout .trends .trendsWrap .trendsContent li .con span {
+  display: block;
+  color: #888;
+}
